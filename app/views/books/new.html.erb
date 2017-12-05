@@ -1,1 +1,8 @@
 <p>Hello world</p>
+<p><%= render :partial => 'footer' %></p>
+
+<ul>
+<% ['Apple', 'Banana', 'Orange'].each do |name| %>
+    <li><%= name %></li>
+<% end %>
+</ul>
